@@ -5,7 +5,7 @@ metadata:
   labels:
     app: gdcu-server-app
 spec:
-  replicas: 1  # Number of replicas, adjust if you need to scale
+  replicas: 3  # Number of replicas, adjust if you need to scale
   selector:
     matchLabels:
       app: gdcu-server-app
