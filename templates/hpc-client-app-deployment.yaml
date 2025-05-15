@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: hpc-client-app-deployment
+  name: server
   labels:
     app: hpc-client-app
 spec:
