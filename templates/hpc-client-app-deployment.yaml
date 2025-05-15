@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: hpc-client-app-container
-          image: {{ .Values.server.repository }}:{{ .Values.server.tag }}    #when we use private repository install on server instead of public dockerHub then we have to give the path of image, where image have been uploaded in private repo.
+          image: {{ .Values.server.image }}:{{ .Values.server.tag }}    #when we use private repository install on server instead of public dockerHub then we have to give the path of image, where image have been uploaded in private repo.
           ports:
             - containerPort: 8080
